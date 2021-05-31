@@ -1,4 +1,4 @@
-package graph
+package structs
 
 // Graph is a struct representing a graph, with int value as nodes and adjancency lists for edges
 type Graph struct {

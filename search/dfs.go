@@ -3,11 +3,11 @@ package search
 import (
 	"fmt"
 
-	"github.com/alright21/algo/graph"
+	"github.com/alright21/algo/structs"
 )
 
 // DFS search a Graph by doing depth first search
-func DFS (graph *graph.Graph, node int){
+func DFS (graph *structs.Graph, node int){
 	
 	graph.Visited[node] = true
 	fmt.Printf("%d ", node)
